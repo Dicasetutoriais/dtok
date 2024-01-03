@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-sitedwn=github.com/PhoenixxZ2023/PainelDTunnelMod
+sitedwn=github.com/Dicasetutoriais/dtok
 IP=$(wget -qO- ipv4.icanhazip.com)
 [[ $(crontab -l | grep -c "crondtunnel.sh") != '0' ]] && crontab -l | grep -v 'crondtunnel.sh' | crontab -
 function os_system {
